@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #3a3a4e;
+    color: white;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.sidebar-section {
+    margin-bottom: 30px;
+}
+
+.sidebar-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar-section-header .dropdown-icon {
+    color: #6b8cff;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-item input[type="checkbox"] {
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.header-icons {
+    display: flex;
+}
+
+.header-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #666;
+    border-radius: 50%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 250px;
+    height: 150px;
+    background-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.card.active {
+    border-color: #000000;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 20px;
+    border: 1px solid #666;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.imagem{
+    border-radius: 5px;
+}
+
+.jogos{
+    font-size: 15px;
+    color: #aeaeae;
+}
